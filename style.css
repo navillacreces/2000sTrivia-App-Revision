@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    background: black;
+  }
+  
+  p{
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    color: red;
+  }
+  
+  button{
+    height: 40px;
+    width: 70px;
+    font-weight: bold;
+    background: black;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    color: yellow;
+  }
+  
+  h1{
+    text-align: center;
+    border: 1px solid black;
+    font-family: 'Anton', sans-serif;
+  }
+  
+  h3{
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    color: #E1E6E1;
+  }
+  
+  h6{
+    text-align: center;
+  }
+  
+  header{
+    background: #E1E6E1;
+  }
+  
+  .questions-counter{
+    padding-right: 15px;
+  }
+  
+  .score-coutner{
+    padding-left: 15px;
+    
+  }
+  
+  .scoreboard-div, .flex-container{
+    display: flex;
+    justify-content: center;
+    font-family: 'Cabin', sans-serif;
+    color: #E1E6E1;
+  }
+  
+  .possible-answers-div{
+    
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Cabin', sans-serif;
+    color: #E1E6E1;
+  }
+  
+  
+  
+  @media (min-width: 768px) and (max-width: 1024px){
+  
+    h1{
+      font-size: 36px;
+    }
+  
+  
+    .possible-answers-div,.scoreboard-div,h3,p{
+      font-size: 28px;
+      
+    }
+  
+    .possible-answers-div{
+      line-height: 30px;
+    }
+  
+  
+  }
+  
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+  
+  
+    h1{
+      font-size: 36px;
+    }
+  
+  
+    .possible-answers-div,.scoreboard-div,h3,p{
+      font-size: 28px;
+      
+    }
+  
+    .possible-answers-div{
+      line-height: 30px;
+    }
+  
+  
+      
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+  
+    h1{
+      font-size: 36px;
+    }
+  
+  
+    .possible-answers-div,.scoreboard-div,h3,p{
+      font-size: 28px;
+      
+    }
+  
+    .possible-answers-div{
+      line-height: 30px;
+    }
+  
+  }
+  
+  @media (min-width: 1281px){
+  
+    h1{
+      font-size: 36px;
+    }
+  
+  
+    .possible-answers-div,.scoreboard-div,h3,p{
+      font-size: 28px;
+      
+    }
+  
+    .possible-answers-div{
+      line-height: 30px;
+    }
+  
+  
+  }
